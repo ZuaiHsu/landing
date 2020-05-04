@@ -1,0 +1,128 @@
+/* Write some CSS below */
+/* style.css */
+
+body {
+  font-family: Overpass;
+  color: #404042;
+  margin:0;
+}
+
+h1, h2, h3 {
+  font-family: Chivo;
+}
+
+p{
+	color:404042;
+	opacity: .7;
+}
+
+img{
+	width: 180px;
+	height: 180px;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+a {
+  color: #1A48E3;
+  font-weight: bold;
+  text-decoration: none;
+  transition: .3s;
+}
+
+a:hover {
+  color: #CE2FAE;
+}
+
+.banner{
+	background-image: url('images/background.jpg');
+	background-size:cover;
+	padding: 150px 0;
+	text-align: center;
+	/*margin: 0;*/
+
+}
+
+.banner h1{
+	color: white;
+	font-size: 45px;
+}
+
+.banner p{
+	color: white;
+	font-size: 25px;
+}
+
+.button-blue{
+	background-color: #1A48E3;
+	color: white;
+	border-radius: 5px;
+	padding: 15px 50px;
+}
+
+.button-blue:hover {
+  background-color: #0D1EC6;
+  color: white;
+}
+
+.card-white{
+	background-color: white;
+	padding: 25px;
+  	box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  	width: 200px;
+  	border-radius: 5px;
+  	text-align: center;
+  	margin: 10px;
+}
+
+.footer{
+	background-color: rgba(0,0,0,0.7);
+	text-align: center;
+	margin: 0;
+	padding:25px 0;
+
+}
+
+.footer p{
+	color: white;
+}
+
+.cards{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+}
+
+@media(max-width: 800px){
+	.cards{
+		grid-template-columns: 1fr;
+	}
+	.card-white{
+		width:auto;
+	}
+}
+
+@media(min-width: 600px){
+	.container {
+		width: 400px;
+	}
+}
+@media (min-width: 800px) {
+  	.container {
+    	width: 600px;
+ 	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
